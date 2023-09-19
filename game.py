@@ -15,7 +15,7 @@ class Game:
         2 : Filter starts with
         3 : From To Multiplication Table
         4 : to exit
-    ''')
+                  ''')
             user_choice = int(input('Enter Game Number : '))
             if user_choice == 1 :
                 names = input('Enter Names Seperatd by , : ')
@@ -38,7 +38,7 @@ class Game:
                 return
 
 
-            play_again = input('Press any char to play agin , n to exit')
+            play_again = input('Press any char to play again , n to exit')
             if play_again == 'n':
                 break
 
