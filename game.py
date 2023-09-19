@@ -3,7 +3,7 @@
         - start : welcome , options
         - options to exit
         - enter game number
-        - play gain
+        - play again
 '''
 
 class Game:
